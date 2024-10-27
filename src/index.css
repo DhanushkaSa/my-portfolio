@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: 'Inter',sans-serif;
+  }
+
+  @keyframes border-pulse {
+    0% {
+      border-color: red;
+    }
+    50% {
+      border-color: aqua;
+    }
+    100% {
+      border-color: #00ff00;
+    }
+  }
+  
