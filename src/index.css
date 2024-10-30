@@ -17,4 +17,16 @@
       border-color: #00ff00;
     }
   }
+
+  .bg-twinkling {
+    background-image: url('/src/assets/twincle.png'); /* Replace with twinkling star image URL */
+  }
+  
+  /* Star motion animations */
+  @keyframes move-stars {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+  
   

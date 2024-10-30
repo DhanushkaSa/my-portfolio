@@ -2,11 +2,11 @@ function Education() {
     return (
         <div className=" absolute inset-0 -z-10  overflow-auto h-full w-full px-5 py-10 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white">
             <div className="animate-fade-in">
-                <div className="inline-flex">
-                    <div className="border-2 w-[400px] h-[700px] mx-5 rounded-xl ">
+                <div className="inline-flex flex-wrap justify-center gap-5">
+                    <div className="border-2 w-[400px] h-[700px] mx-5 rounded-xl md:w-[400px]">
 
-                        <div className="mx-32 my-5 animate-flip">
-                            <img src="/src/assets/DMV.jpg" alt="DMV" className="w-[150px] h-[150px] justify-center rounded-full" />
+                        <div className="mx-32 my-5 animate-flip ">
+                            <img src="/src/assets/DMV.jpg" alt="DMV" className="w-[150px] md:w-[150px] h-[150px] md:h-[150px] justify-center rounded-full" />
 
 
                         </div>
@@ -49,9 +49,9 @@ function Education() {
 
                     </div>
 
-                    <div className="border-2 w-[400px] h-[700px] mx-5 rounded-xl">
+                    <div className="border-2 w-[400px] h-[700px] md:w-[400px] mx-5 rounded-xl">
                         <div className="mx-32 my-5 animate-flip">
-                            <img src="/src/assets/ECC.jpg" alt="ECC" className="w-[150px] h-[150px] justify-center rounded-full" />
+                            <img src="/src/assets/ECC.jpg" alt="ECC" className="w-[150px] h-[150px] md:w-[150px] md:h-[150px] justify-center rounded-full" />
 
                         </div>
 
@@ -78,9 +78,9 @@ function Education() {
 
                     </div>
 
-                    <div className="border-2 w-[400px] h-[700px] mx-5 rounded-xl ">
+                    <div className="border-2 w-[400px] h-[700px] md:w-[400px] mx-5 rounded-xl ">
                         <div className="mx-32 my-5 animate-flip">
-                            <img src="/src/assets/UOM.jpg" alt="UOM" className="w-[150px] h-[150px] justify-center rounded-full" />
+                            <img src="/src/assets/UOM.jpg" alt="UOM" className="w-[150px] md:w-[150px] h-[150px] md:h-[150px] justify-center rounded-full" />
                         </div>
 
                         <div className="text-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  bg-clip-text text-transparent rounded-lg">
@@ -115,10 +115,10 @@ function Education() {
 
                 </div>
 
-                <div className="inline-flex">
-                    <div className="border-2 w-[400px] h-[700px] mx-5 my-5 rounded-xl ">
+                <div className="flex flex-wrap justify-center gap-5">
+                    <div className="border-2 w-[400px] md:w-[400px] h-[700px] mx-5 my-5 rounded-xl ">
                         <div className="mx-32 my-5 animate-flip">
-                            <img src="/src/assets/IJSE.jpg" alt="IJSE" className="w-[150px] h-[150px] justify-center rounded-full" />
+                            <img src="/src/assets/IJSE.jpg" alt="IJSE" className="w-[150px] md:w-[150px] md:h-[150px] h-[150px] justify-center rounded-full" />
                         </div>
 
                         <div className="text-xl  bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent rounded-lg">
@@ -147,9 +147,9 @@ function Education() {
                         </div>
                     </div>
 
-                    <div className="border-2 w-[400px] h-[700px] mx-5 my-5 rounded-xl ">
-                        <div className="mx-32 my-5 animate-flip">
-                            <img src="/src/assets/UOC.jpg" alt="UOC" className="w-[150px] h-[150px] justify-center rounded-full" />
+                    <div className="border-2 w-[400px] md:w-[400px] h-[700px] mx-5 my-5 rounded-xl ">
+                        <div className="mx-32 my-5 animate-flip ">
+                            <img src="/src/assets/UOC.jpg" alt="UOC" className="w-[150px] md:w-[150px] h-[150px] md:h-[150px] justify-center rounded-full" />
                         </div>
 
                         <div className="text-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  bg-clip-text text-transparent rounded-lg">
