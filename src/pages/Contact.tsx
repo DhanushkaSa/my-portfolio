@@ -46,7 +46,7 @@ function Contact() {
             <div>
               <label className="block text-lg mb-2">Telephone</label>
               <input
-                type="tel"
+                type="number"
                 name="telephone"
                 className="w-full md:w-2/3 lg:w-1/2 rounded-lg py-2 px-3 text-black"
                 placeholder="+94 xx xxx xxxx"
