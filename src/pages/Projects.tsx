@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Projects() {
     return (
-        <div className="absolute inset-0 -z-10 overflow-auto h-full w-full px-5 py-10 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white">
+        <div className="fixed inset-0 -z-10 overflow-auto h-full w-full px-5 py-10 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white">
             <div className="animate-fade-in flex flex-wrap justify-center gap-5">
                 
                 {/* Library Management System */}
