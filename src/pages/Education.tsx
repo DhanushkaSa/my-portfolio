@@ -118,6 +118,7 @@ function Education() {
                                 <p>Bachelor (Hons) of Information and Communication Technology</p>
                                 <div className="mx-10 bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent rounded-lg text-left">
                                     <p>Currently I'm studying at University of Colombo Faculty of Technology.</p>
+                                    
                                 </div>
                             </div>
                         </div>

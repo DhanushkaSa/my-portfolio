@@ -30,7 +30,7 @@ function Home() {
                 </div>
 
                 {/* Main Content Section */}
-                <div className="flex flex-col md:flex-row justify-center items-center space-y-6 mt-32 md:space-y-0 md:space-x-10">
+                <div className="flex flex-col md:flex-row justify-center items-center space-y-6 mt-32 md:space-y-0 md:space-x-10 ">
                     {/* Profile Image */}
                     <div className="w-[180px] md:w-[250px] my-4 md:my-5 border-4 rounded-lg">
                         <img src="/portfolio.jpeg" alt="Portfolio" className="rounded-lg" />
@@ -62,6 +62,10 @@ function Home() {
                             <p className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent font-semibold text-sm md:text-base">
                                 I’m a dedicated learner with a strong foundation in ICT, currently pursuing a Bachelor of (Hons) in Information and Communication Technology at the University of Colombo. I've gained hands-on experience with a wide range of programming languages, including Java, Python, and JavaScript, and have a solid grounding in both backend and frontend technologies. My journey has also taken me through web development essentials like HTML, CSS, JavaScript, and React along with more advanced web and Java programming concepts. Passionate about growing in the IT industry, I'm continually building my skills in software engineering and exploring new tech advancements for a future in technology and innovation.
                             </p>
+                        </div>
+
+                        <div>
+                            <a href="https://drive.google.com/file/d/1uG9V8DsbxUB1R-O43RhHBS9qKcHgSwep/view"><button className="border mt-5 px-5 py-3 font-bold rounded-3xl hover:bg-white hover:text-black">Resume</button></a>
                         </div>
                     </div>
                 </div>
